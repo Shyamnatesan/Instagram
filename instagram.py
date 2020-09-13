@@ -123,7 +123,6 @@ if __name__ == '__main__':
     if int(python_version()[0]) < 3:
         print('[!] Please use Python 3')
         exit()
-
     arugments = args()
     mode = arugments.mode
     username = arugments.username
